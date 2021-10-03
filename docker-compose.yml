@@ -16,8 +16,6 @@ services:
         ports:
             - "5434:5432"
         restart: always
-        labels:
-            kompose.service.type: LoadBalancer
         networks:
             trilhamusical-net:
                 ipv4_address: 35.197.112.231
